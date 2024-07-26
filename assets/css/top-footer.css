@@ -1,0 +1,79 @@
+ul{
+    padding-left: 0;
+}
+.top-footer a, .top-footer li{
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.top-footer li{
+    list-style: none !important;
+}
+/* .top-footer a:hover{
+    background-color: #c3c2c9e8;
+} */
+.top-footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap:30px;
+    justify-content: center;
+    padding-bottom: 70px;
+    grid-auto-flow: dense; /*helps rearrange Item to fit well on grid*/
+    /* background-color: var(--primary-color); */
+    color: rgb(20, 19, 19);
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .f-card{
+    background-color: #d0e7fba1;
+    border-radius: 20px;
+}
+.top-footer div{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* align-items: center; */
+}
+.f-company .heading, #f-socialmedia .heading, #f-contact .heading {
+    font-size: calc(1.275rem + .3vw) !important;
+    font-weight: 700;
+    display: flex;
+    /* justify-content: center; */
+    text-transform: uppercase;
+}
+.f-contact{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    gap: 10px;
+}
+#f-socialmedia ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+#f-socialmedia ul li{
+    margin: 0 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    
+}
+#f-socialmedia ul li a{
+    display: flex;
+    padding: 0 6px;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+}
+#f-socialmedia ul li:hover{
+    background:rgb(151, 151, 213);
+    
+}
+#f-socialmedia ul li a i{
+   color: rgb(117, 117, 244);
+}
+#f-socialmedia ul li a:hover i{
+    color: rgba(42, 123, 163, 0.738);
+ }
